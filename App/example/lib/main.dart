@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'ArMeasurementScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,17 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'ARKit Flutter App',
-      home: Container(
-        color: Colors.deepPurpleAccent,
-        child: Center(
-          child: Text(
-            "Hello World",
-            textAlign: TextAlign.center,
-          ),
-        ),
-      ),
+      home: ArMeasurementScreen(),
     );
   }
 }
-
-
